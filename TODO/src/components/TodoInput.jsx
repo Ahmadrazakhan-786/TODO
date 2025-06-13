@@ -18,19 +18,19 @@ const TodoInput = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex gap-4 mb-6">
+    <form onSubmit={handleSubmit} className="flex gap-4 mb-6 text-gray-300">
       <input
         type="text"
         placeholder="Enter todo..."
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        className="border border-gray-300 px-4 py-2 rounded w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="border border-gray-200 px-4 py-2 rounded w-full focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
       <button
         type="submit"
         className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-200"
       >
-        Add
+        ADD
       </button>
     </form>
   );

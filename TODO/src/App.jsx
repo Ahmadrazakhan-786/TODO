@@ -22,8 +22,8 @@ import TodoList from './components/TodoList'
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center pt-10">
-      <h1 className="text-3xl font-bold mb-6 text-purple-700">📝 Redux TODO App</h1>
+    <div className="min-h-screen bg-gray-950 flex flex-col items-center pt-20">
+      <h1 className="text-3xl font-bold mb-6 text-red-300 mt-5 mr-10">📝TODO LIST</h1>
       <TodoInput />
       <TodoList />
     </div>
